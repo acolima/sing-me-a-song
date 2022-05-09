@@ -63,12 +63,7 @@ npm run build
 
 ## How to run the tests
 
-1. Install cypress
-```bash
-npm i -D cypress eslint-plugin-cypress
-```
-
-2. Run
+1. Run cypress
 ```bash
 npx cypress open
 ```
