@@ -1,70 +1,75 @@
-# Getting Started with Create React App
+# Sing me a Song
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Sing me a Song is a application for videos recommendations. The recommendation is given based on their score.
 
-## Available Scripts
+## Implemented features
 
-In the project directory, you can run:
+- Add a new music recommendation
+- Like or dislike (up or down vote)
+- Get a list with the videos with the hightest scores
+- Get a random video recommendation
 
-### `npm start`
+## Technologies
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<p>
+  <img src='https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB' alt="React" />
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+  <img src='https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white' alt="React-Router-Dom"/>
 
-### `npm test`
+  <img src='https://img.shields.io/badge/axios%20-%2320232a.svg?&style=for-the-badge&color=informational' alt="Axios">
+  
+  <img src='https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white' alt='Styled Components' />
+  
+  <img src='https://img.shields.io/badge/Cypress-17202C?style=for-the-badge&logo=cypress&logoColor=white' alt='Cypress' />
+</p>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## How to run
 
-### `npm run build`
+1. Clone this repository
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+git clone git@github.com:acolima/sing-me-a-song.git
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. Go to the project directory
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+ cd sing-me-a-song
+```
 
-### `npm run eject`
+3. Install dependencies
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+npm i
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+4. Run project with
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+npm start
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+5. You can optionally build the project running
 
-## Learn More
+```bash
+npm run build
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+6. Finally access http://localhost:3000 on your browser (port number may vary in some cases)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+7. The requests are made from a URL that must be placed in an enviroment variable in the `.env` file (see `.env.example` file)
 
-### Code Splitting
+8. You can check the back-end repository of this project at https://github.com/acolima/sing-me-a-song-api and follow the instructions to run
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## How to run the tests
 
-### Analyzing the Bundle Size
+1. Install cypress
+```bash
+npm i -D cypress eslint-plugin-cypress
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+2. Run
+```bash
+npx cypress open
+```
+This will open the cypress window
