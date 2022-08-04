@@ -27,49 +27,52 @@ Sing me a Song is a application for videos recommendations. The recommendation i
 
 1. Clone this repository
 
-```bash
+```
 git clone git@github.com:acolima/sing-me-a-song.git
 ```
 
 2. Go to the project directory
 
-```bash
+```
  cd sing-me-a-song
 ```
 
 3. Install dependencies
 
-```bash
+```
 npm i
 ```
 
 4. Run project with
 
-```bash
+```
 npm start
 ```
 
 5. You can optionally build the project running
 
-```bash
+```
 npm run build
 ```
 
 6. Finally access http://localhost:3000 on your browser (port number may vary in some cases)
 
-7. The requests are made from a URL that must be placed in an enviroment variable in the `.env` file (see `.env.example` file)
+:star: The requests are made from a URL that must be placed in an enviroment variable in the `.env` file (see `.env.example` file)
 
-8. You can check the back-end repository of this project at https://github.com/acolima/sing-me-a-song-api and follow the instructions to run
+:star: You can check the back-end repository of this project <a href='https://github.com/acolima/sing-me-a-song-api'>here</a> and follow the instructions to run
 
 ## How to run the tests
 
 1. Install cypress
+
 ```bash
 npm i -D cypress eslint-plugin-cypress
 ```
 
 2. Run
+
 ```bash
 npx cypress open
 ```
+
 This will open the cypress window
