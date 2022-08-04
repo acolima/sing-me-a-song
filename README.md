@@ -55,24 +55,31 @@ npm start
 npm run build
 ```
 
-6. Finally access http://localhost:3000 on your browser (port number may vary in some cases)
+6. Finally access `http://localhost:3000` on your browser (port number may vary in some cases)
 
 :star: The requests are made from a URL that must be placed in an enviroment variable in the `.env` file (see `.env.example` file)
 
-:star: You can check the back-end repository of this project <a href='https://github.com/acolima/sing-me-a-song-api'>here</a> and follow the instructions to run
+:star: You can check the back-end repository of this project <a href='https://github.com/acolima/sing-me-a-song-api' target='_blank'>here</a> and follow the instructions to run
 
 ## How to run the tests
 
-1. Install cypress
-
-```bash
-npm i -D cypress eslint-plugin-cypress
-```
-
-2. Run
+1. Run cypress
 
 ```bash
 npx cypress open
 ```
 
 This will open the cypress window
+
+## Author
+
+<img src='https://avatars.githubusercontent.com/acolima' width='150px'/>
+
+<p>
+  <a href='https://www.linkedin.com/in/ana-caroline-oliveira-lima/'>
+    <img src='https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white' alt='LinkedIn' />
+  </a>
+  <a href='mailto:acolima@gmail.com'>
+    <img src='https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white' alt='Gmail' />
+  </a>
+</p>
